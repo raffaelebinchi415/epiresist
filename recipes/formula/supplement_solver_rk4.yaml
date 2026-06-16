@@ -1,0 +1,5 @@
+inherit: [main.yaml]
+name: supplement_solver_rk4
+alembic:
+  solver: rk4
+  adjoint: false

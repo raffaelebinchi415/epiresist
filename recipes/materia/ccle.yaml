@@ -1,0 +1,10 @@
+materia:
+  name: ccle_aml
+  n_samples: 256
+  n_genes: 17198
+  n_cpg: 12543
+  n_concentrations: 8
+  n_replicates: 2
+  n_gene_sets: 50
+  seed: 256
+  manifest: null

@@ -1,0 +1,4 @@
+inherit: [main.yaml]
+name: ablation_no_coupling
+alembic:
+  use_coupling: false

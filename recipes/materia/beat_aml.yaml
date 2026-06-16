@@ -1,0 +1,10 @@
+materia:
+  name: beat_aml
+  n_samples: 409
+  n_genes: 17198
+  n_cpg: 12543
+  n_concentrations: 7
+  n_replicates: 3
+  n_gene_sets: 50
+  seed: 42
+  manifest: null

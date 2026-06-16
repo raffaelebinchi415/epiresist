@@ -1,0 +1,21 @@
+inherit:
+  - ../materia/beat_aml.yaml
+  - ../preparation/default.yaml
+  - ../regimen/default.yaml
+name: main
+enable_mechanism: true
+alembic:
+  solver: dopri5
+  rtol: 0.00001
+  atol: 0.0000001
+  integration_steps: 10
+  t_final: 1.0
+  adjoint: true
+  enable_epigenetic: true
+  enable_pharmacology: true
+  enable_population: true
+  use_coupling: true
+assay:
+  top_k: 10
+  bootstrap_iters: 1000
+  n_perm: 200

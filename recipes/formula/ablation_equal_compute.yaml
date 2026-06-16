@@ -1,0 +1,5 @@
+inherit: [main.yaml]
+name: ablation_equal_compute
+preparation:
+  d_model: 128
+  n_graph_genes: 128

@@ -1,0 +1,16 @@
+regimen:
+  lr: 0.0005
+  weight_decay: 0.00001
+  epochs: 200
+  patience: 20
+  batch_size: 32
+  grad_clip: 1.0
+  amp: false
+  ema_decay: 0.999
+  seed: 42
+  folds: 5
+  device: auto
+balance:
+  lambda_physics: 0.1
+  lambda_sparse: 0.01
+  lambda_temporal: 0.05

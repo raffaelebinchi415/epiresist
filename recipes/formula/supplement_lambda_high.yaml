@@ -1,0 +1,4 @@
+inherit: [main.yaml]
+name: supplement_lambda_high
+balance:
+  lambda_physics: 1.0

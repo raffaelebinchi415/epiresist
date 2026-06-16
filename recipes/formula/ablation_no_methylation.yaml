@@ -1,0 +1,4 @@
+inherit: [main.yaml]
+name: ablation_no_methylation
+preparation:
+  active_modalities: [true, false, true]

@@ -1,0 +1,4 @@
+inherit:
+  - main.yaml
+  - ../materia/gdsc.yaml
+name: supplement_gdsc

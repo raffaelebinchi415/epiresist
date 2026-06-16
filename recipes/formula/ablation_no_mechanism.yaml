@@ -1,0 +1,3 @@
+inherit: [main.yaml]
+name: ablation_no_mechanism
+enable_mechanism: false

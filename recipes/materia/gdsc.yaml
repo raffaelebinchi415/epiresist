@@ -1,0 +1,10 @@
+materia:
+  name: gdsc_aml
+  n_samples: 969
+  n_genes: 17198
+  n_cpg: 12543
+  n_concentrations: 9
+  n_replicates: 3
+  n_gene_sets: 50
+  seed: 137
+  manifest: null

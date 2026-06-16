@@ -1,0 +1,6 @@
+inherit: [main.yaml]
+name: ablation_no_all_odes
+alembic:
+  enable_epigenetic: false
+  enable_pharmacology: false
+  enable_population: false

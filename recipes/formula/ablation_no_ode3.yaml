@@ -1,0 +1,4 @@
+inherit: [main.yaml]
+name: ablation_no_ode3
+alembic:
+  enable_population: false

@@ -1,0 +1,39 @@
+# for unit-test smoke only; do not use for reporting
+inherit:
+  - main.yaml
+name: _smoke
+materia:
+  name: smoke
+  n_samples: 24
+  n_genes: 64
+  n_cpg: 48
+  n_concentrations: 7
+  n_replicates: 2
+  n_gene_sets: 8
+  seed: 7
+  manifest: null
+preparation:
+  d_model: 32
+  n_heads: 2
+  n_layers: 1
+  gat_heads: 2
+  gat_layers: 1
+  n_graph_genes: 16
+  graph_degree: 2
+  cnn_filters: [8, 16, 32]
+  cnn_kernels: [3, 5, 7]
+  dropout: 0.0
+  active_modalities: [true, true, true]
+regimen:
+  epochs: 2
+  patience: 5
+  batch_size: 8
+  folds: 2
+  device: cpu
+alembic:
+  integration_steps: 3
+  t_final: 1.0
+assay:
+  top_k: 5
+  bootstrap_iters: 50
+  n_perm: 20

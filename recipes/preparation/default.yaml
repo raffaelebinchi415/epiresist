@@ -1,0 +1,12 @@
+preparation:
+  d_model: 256
+  n_heads: 4
+  n_layers: 2
+  gat_heads: 4
+  gat_layers: 2
+  n_graph_genes: 256
+  graph_degree: 3
+  cnn_filters: [64, 128, 256]
+  cnn_kernels: [3, 5, 7]
+  dropout: 0.1
+  active_modalities: [true, true, true]

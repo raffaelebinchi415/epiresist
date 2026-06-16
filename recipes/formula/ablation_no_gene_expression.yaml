@@ -1,0 +1,4 @@
+inherit: [main.yaml]
+name: ablation_no_gene_expression
+preparation:
+  active_modalities: [false, true, true]

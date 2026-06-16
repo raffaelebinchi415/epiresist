@@ -1,0 +1,4 @@
+inherit: [main.yaml]
+name: ablation_no_drug_response
+preparation:
+  active_modalities: [true, true, false]
